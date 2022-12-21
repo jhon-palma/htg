@@ -1,0 +1,50 @@
+.hero{
+  /* background-image: url('../img/HotelTocaremaP.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/HotelTocaremaP.jpg") center center;
+  background-size: cover;
+  padding: 60px 60px;
+  overflow: hidden;
+}
+/* @media (min-width: 1024px){
+  
+  
+  .hero{
+    background-image: url('../img/HotelTocarema1_w_1024.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+  }
+}
+@media (min-width:301px) and (max-width: 1023px){
+  
+  
+  .hero{
+    background-image: url('../img/HotelTocarema1_w_800.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+  }
+}
+@media(max-width:300px){
+  .hero{
+    background-image: url('../img/HotelTocarema1_w_300.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    
+  }
+} */
+
+  /* .hero{
+    padding: 0;
+    margin: 0;
+  } */
