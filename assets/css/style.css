@@ -40,6 +40,10 @@
   color: white;
 }
 
+#carouselTocarema .carousel-inner .carousel-item img{
+  height: 100vh;
+  width: 100%;
+}
 .carousel-inner .carousel-item > img{
   -webkit-animation:thing 20s;
   -o-animation: thing 20s;
