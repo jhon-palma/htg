@@ -44,4 +44,10 @@
   .carousel h1 {
     font-size: 3rem;
   }
+  .w-100 {
+    height: 60vh;
+  }
+  .carousel p {
+    font-size: 1.5rem;
+  }
 }
