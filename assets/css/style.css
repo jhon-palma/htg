@@ -1,52 +1,36 @@
-.shero{
-  /* background-image: url('../img/HotelTocaremaP.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;*/
-  /* background-attachment: fixed;  */
-  background-image:url("../img/HotelTocarema_w_500.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 60px 60px;
-  /* overflow: hidden; */
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+  --font-thirdary: "Times", serif;
 }
-/* @media (min-width: 1024px){
-  
-  
-  .hero{
-    background-image: url('../img/HotelTocarema1_w_1024.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-    
-  }
-}
-@media (min-width:301px) and (max-width: 1023px){
-  
-  
-  .hero{
-    background-image: url('../img/HotelTocarema1_w_800.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-    
-  }
-}
-@media(max-width:300px){
-  .hero{
-    background-image: url('../img/HotelTocarema1_w_300.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-    
-  }
-} */
 
-  /* .hero{
-    padding: 0;
-    margin: 0;
-  } */
+/* Colors */
+:root {
+  --color-default: #222222;
+  --color-primary: rgb(245, 245, 220);
+  --color-secondary: #f85a40;
+  --color-thirdary: rgb(0,43,116);
+  --color-fourth: rgb(1, 69, 186);
+}
+
+.carousel h1 {
+  font-family: "Times", serif;
+  font-size: 4rem;
+}
+
+.carousel p {
+  font-family: "Courgette", cursive;
+  font-size: 2rem;
+  -webkit-text-stroke: 1px rgba(0, 43, 116, 0.733);
+}
+
+.w-100 {
+  height: 80vh;
+}
+
+.carousel .btn-primary{
+  background-color:var(--color-fourth);
+  font-weight: 600;
+  border: var(--color-thirdary);
+}
