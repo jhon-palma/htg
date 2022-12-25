@@ -72,7 +72,7 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .section-header h2 {
@@ -1915,88 +1915,38 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.shero {
+.services {
   width: 100%;
-  position: relative;
-  background: var(--color-primary);
-  padding: 60px 0 0 0;
+  /* position: relative; */
+  /* background: var(--color-primary); */
+  /* padding: 60px 0 0 0; */
 }
 
-@media (min-width: 1365px) {
-  .shero {
-    background-attachment: fixed;
-  }
-}
-
-.shero h2 {
+.services h2 {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #fff;
+  color: var(--color-fourth);
 }
 
-.shero p {
-  color: rgba(255, 255, 255, 0.6);
+.services p {
+  color: var(--color-thirdary);
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-.shero .btn-get-started {
-  font-family: var(--font-primary);
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 14px 40px;
-  border-radius: 50px;
-  transition: 0.3s;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
-  border: 2px solid rgba(255, 255, 255, 0.1);
-}
-
-.shero .btn-get-started:hover {
-  border-color: rgba(255, 255, 255, 0.5);
-}
-
-.shero .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  color: #fff;
-  font-weight: 600;
-}
-
-.shero .btn-watch-video i {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.shero .btn-watch-video:hover i {
-  color: #fff;
-}
-
 @media (max-width: 640px) {
-  .shero h2 {
+  .services h2 {
     font-size: 36px;
   }
-
-  .shero .btn-get-started,
-  .shero .btn-watch-video {
-    font-size: 14px;
-  }
 }
 
-.shero .icon-boxes {
+.services .icon-boxes {
   padding-bottom: 60px;
 }
 
-@media (min-width: 1200px) {
-  .shero .icon-boxes:before {
+/* @media (min-width: 1200px) {
+  .services .icon-boxes:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -2005,13 +1955,13 @@ section {
     height: calc(50% + 20px);
     background-color: #fff;
   }
-}
+} */
 
-.shero .icon-box {
-  /* padding: 60px 30px; */
+.services .icon-box {
+  padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: var(--color-fourth);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2021,20 +1971,20 @@ section {
   text-align: center;
 }
 
-.shero .icon-box .title {
+.services .icon-box .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.shero .icon-box .title a {
+.services .icon-box .title a {
   color: #fff;
   transition: 0.3s;
 }
 
-.shero .icon-box .icon {
-  /* margin-bottom: 20px; */
-  /* padding-top: 10px; */
+.services .icon-box .icon {
+  margin-bottom: 20px;
+  padding-top: 10px;
   display: inline-block;
   transition: all 0.3s ease-in-out;
   font-size: 48px;
@@ -2042,14 +1992,15 @@ section {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.hero .icon-box:hover {
-  background: #009786;
+.services .icon-box:hover {
+  background: var(--color-thirdary);
 }
 
-.hero .icon-box:hover .title a,
-.hero .icon-box:hover .icon {
+.services .icon-box:hover .title a,
+.services .icon-box:hover .icon {
   color: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # Blog

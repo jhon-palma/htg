@@ -27,35 +27,43 @@
   -webkit-text-stroke: 0.5px rgba(0, 43, 116, 0.733);
 }
 
-  /* .w-100 {
-    height: 80vh;
-  } */
-
-.carousel .btn-primary{
-  background-color:var(--color-fourth);
-  font-weight: 600;
+/* .w-100 {
+  height: 80vh;
+} */
+.carousel .btn-primary {
+  background-color: var(--color-fourth);
+  font-weight: 500;
   border: var(--color-thirdary);
 }
-.carousel .btn-primary a:hover{
+
+.carousel .btn-primary a:hover {
   color: white;
 }
 
-#carouselTocarema .carousel-inner .carousel-item img{
-  height: 50vh;
+#carouselTocarema .carousel-inner .carousel-item img {
+  height: 80vh;
   width: 100%;
 }
 
-.carousel-inner .carousel-item > img{
-  -webkit-animation:thing 20s;
-  -o-animation: thing 20s;
-  animation:thing 20s;
+.carousel-inner .carousel-item > img {
+  -webkit-animation: thing 20s;
+  animation: thing 20s;
 }
 
-@keyframes thing{
-  from{
+@-webkit-keyframes thing {
+  from {
     transform: scale(1, 1);
   }
-  to{
+  to {
+    transform: scale(1.3, 1.3);
+  }
+}
+
+@keyframes thing {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
     transform: scale(1.3, 1.3);
   }
 }
@@ -63,10 +71,32 @@
   .carousel h1 {
     font-size: 2rem;
   }
-  /* .w-100 {
-    height: 60vh;
-  } */
+  .w-100 {
+    height: 50vh;
+  }
   .carousel p {
     font-size: 1.5rem;
   }
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
