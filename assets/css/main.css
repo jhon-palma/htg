@@ -165,31 +165,42 @@ section {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: -15px;
+  right: 25px;
+  bottom: 20px;
   z-index: 99999;
-  background: var(--color-secondary);
-  width: 44px;
-  height: 44px;
+  background: #25d366;
+  width: 60px;
+  height: 60px;
   border-radius: 50px;
-  transition: all 0.4s;
+  transition: ease 0.3s;
+  animation: efecto 1.2s infinite;
+
 }
 
 .scroll-top i {
-  font-size: 24px;
+  font-size: 36px;
   color: #fff;
   line-height: 0;
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: rgba(37, 211, 102, 0.8);
   color: #fff;
 }
 
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-  bottom: 15px;
+  bottom: 20px;
+}
+
+@keyframes efecto{
+  0%{
+      box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.85);
+  }
+  100%{
+      box-shadow: 0 0 0 25px rgba(37, 211, 102, 0);
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1977,7 +1988,7 @@ section {
   font-size: 24px;
 }
 
-.services .icon-box .title a {
+.services .icon-box .title {
   color: #fff;
   transition: 0.3s;
 }
@@ -1989,16 +2000,17 @@ section {
   transition: all 0.3s ease-in-out;
   font-size: 48px;
   line-height: 1;
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
 }
 
 .services .icon-box:hover {
   background: var(--color-thirdary);
 }
 
-.services .icon-box:hover .title a,
+.services .icon-box:hover .title,
 .services .icon-box:hover .icon {
   color: #fff;
+  cursor: default;
 }
 
 
