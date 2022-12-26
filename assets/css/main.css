@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: rgb(245, 245, 220);
+  --color-primary: rgb(249, 249 , 239);
   --color-secondary: #f85a40;
   --color-thirdary: rgb(0,43,116);
   --color-fourth: rgb(1, 69, 186);
@@ -1492,6 +1492,25 @@ section {
   height: 100%;
   position: relative;
   border-radius: 15px;
+}
+
+.pricing h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-fourth);
+}
+
+.pricing p {
+  color: var(--color-thirdary);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+  .pricing h2 {
+    font-size: 36px;
+  }
 }
 
 .pricing h3 {
