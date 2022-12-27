@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: var(--color-thirdary);
   left: 0;
   right: 0;
   bottom: 0;
@@ -262,7 +262,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: var(--color-fourth);
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -523,7 +523,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: rgba(0, 43, 116, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -538,7 +538,7 @@ section {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -579,8 +579,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: rgba(29, 64, 124, 0.6);
+    border: 1px solid #002364;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -589,7 +589,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 43, 116, 1);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -600,13 +600,13 @@ section {
 
   .mobile-nav-hide {
     color: #fff;
-    font-size: 32px;
+    font-size: 24px;
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
     position: fixed;
     right: 20px;
-    top: 20px;
+    top: 40px;
     z-index: 9999;
   }
 
@@ -622,7 +622,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: rgba(0, 43, 116, 0.8);
     z-index: 9996;
   }
 }
@@ -1157,6 +1157,25 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+.portfolio h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-fourth);
+}
+
+.portfolio p {
+  color: var(--color-thirdary);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+  .portfolio h2 {
+    font-size: 36px;
+  }
+}
+
 .portfolio .portfolio-flters {
   padding: 0 0 20px 0;
   margin: 0 auto;
@@ -2587,9 +2606,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  font-size: 14px;
-  background-color: var(--color-primary);
-  padding: 50px 0;
+  /* font-size: 14px; */
+  /* background-color: var(--color-primary); */
+  /* padding: 50px 0; */
   color: white;
 }
 
@@ -2625,13 +2644,13 @@ section {
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(241, 22, 22, 0.7);
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: #fff;
+  color: rgb(230, 20, 20);
   border-color: #fff;
 }
 

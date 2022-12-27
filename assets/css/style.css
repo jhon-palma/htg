@@ -123,4 +123,54 @@
   .carouselTocarema h1 {
     font-size: 1.4rem;
   }
+}
+.footer {
+  background-color: var(--color-fourth);
+}
+
+.footer .btn-floating {
+  border-radius: 50%;
+}
+
+.footer .btn-floating i {
+  font-size: 2rem;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+
+.facebook :hover {
+  color: #1877f2;
+  transform: scale(1.3) rotate(360deg);
+}
+
+.facebook :active {
+  color: #1877f2;
+}
+
+.instagram :hover {
+  color: #fd1d1d;
+  transform: scale(1.3) rotate(360deg);
+}
+
+.twitter :hover {
+  color: #1da1f2;
+  transform: scale(1.3) rotate(360deg);
+}
+
+.social {
+  padding: 2rem 0 1.5rem 0;
+}
+
+.contactoFooter {
+  padding: 0 0 1.5rem 0;
+}
+
+.contactoFooter i {
+  font-size: 48px;
+}
+
+.cp {
+  font-size: 0.8rem;
+  background-color: var(--color-thirdary);
+  font-family: var(--font-secondary);
 }/*# sourceMappingURL=style.css.map */
