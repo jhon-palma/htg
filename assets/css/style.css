@@ -68,35 +68,54 @@
   }
 }
 @media (max-width: 575px) {
-  .carousel h1 {
+  .carouselTocarema h1 {
     font-size: 2rem;
   }
   .w-100 {
     height: 50vh;
   }
-  .carousel p {
+  .carouselTocarema p {
     font-size: 1.5rem;
   }
 }
-.swiper {
+.carousel-dark .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
-  height: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.carousel-dark .carousel-caption h5 {
+  font-size: 1.8rem;
+  letter-spacing: -1px;
+  font-weight: 600;
+  color: #fff;
+  -webkit-animation: animate-carousel-title 1s normal forwards;
+          animation: animate-carousel-title 1s normal forwards;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}/*# sourceMappingURL=style.css.map */
+@-webkit-keyframes animate-carousel-title {
+  0% {
+    transform: translate(0, -2em);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes animate-carousel-title {
+  0% {
+    transform: translate(0, -2em);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+/* .w-100 {
+  height: 80vh;
+} *//*# sourceMappingURL=style.css.map */

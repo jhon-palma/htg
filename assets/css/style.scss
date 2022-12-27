@@ -60,45 +60,90 @@
   }
 }
 @media (max-width: 575px) {
-  .carousel h1 {
+  .carouselTocarema h1 {
     font-size: 2rem;
   }
   .w-100 {
     height: 50vh;
   }
-  .carousel p {
+  .carouselTocarema p {
     font-size: 1.5rem;
   }
 }
 
-.swiper {
+.carousel-dark .carousel-caption{
+  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
-  height: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+.carousel-dark .carousel-caption h5 {
+  // font-family: "Times", serif;
+  font-size: 1.8rem;
+  letter-spacing: -1px;
+  font-weight: 600;
+  color: #fff;
+  animation: animate-carousel-title 1s normal forwards;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+@keyframes animate-carousel-title {
+  0% {
+    transform: translate(0, -2em);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
+// .carouselTocarema p {
+//   font-family: "Courgette", cursive;
+//   font-size: 2rem;
+//   -webkit-text-stroke: 0.5px rgba(0, 43, 116, 0.733);
+// }
+
+  /* .w-100 {
+    height: 80vh;
+  } */
+
+// .carouselTocaremaIndex .btn-primary{
+//   background-color:var(--color-fourth);
+//   font-weight: 500;
+//   border: var(--color-thirdary);
+// }
+// .carouselTocarema .btn-primary a:hover{
+//   color: white;
+// }
+
+// .carouselTocarema .carousel-inner .carousel-item img{
+//   height: 80vh;
+//   width: 100%;
+// }
+
+// .carouselTocarema .carousel-inner .carousel-item > img{
+//   -webkit-animation:thing 20s;
+//   -o-animation: thing 20s;
+//   animation:thing 20s;
+// }
+
+// @keyframes thing{
+//   from{
+//     transform: scale(1, 1);
+//   }
+//   to{
+//     transform: scale(1.3, 1.3);
+//   }
+// }
+// @media (max-width: 575px) {
+//   .carouselTocarema h1 {
+//     font-size: 2rem;
+//   }
+//   .w-100 {
+//     height: 50vh;
+//   }
+//   .carouselTocarema p {
+//     font-size: 1.5rem;
+//   }
+// }
