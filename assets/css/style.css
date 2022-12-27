@@ -118,4 +118,9 @@
 }
 /* .w-100 {
   height: 80vh;
-} *//*# sourceMappingURL=style.css.map */
+} */
+@media (max-width: 575px) {
+  .carouselTocarema h1 {
+    font-size: 1.4rem;
+  }
+}/*# sourceMappingURL=style.css.map */
