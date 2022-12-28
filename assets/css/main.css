@@ -221,7 +221,7 @@ section {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #fff;
-  border-color: var(--color-primary) transparent var(--color-primary) transparent;
+  border-color: var(--color-thirdary) transparent var(--color-thirdary) transparent;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -452,7 +452,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: var(--color-fourth);
   }
 
   .navbar .dropdown ul a i {
@@ -462,7 +462,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-secondary);
+    color: var(--color-thirdary);
   }
 
   .navbar .dropdown:hover>ul {
@@ -630,11 +630,23 @@ section {
 /*--------------------------------------------------------------
 # About Us Section
 --------------------------------------------------------------*/
+.about h2{
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-fourth);
+}
+
 .about h3 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
+  color: var(--color-thirdary);
+}
+
+.about p{
+  color: var(--color-thirdary); 
 }
 
 .about .call-us {
