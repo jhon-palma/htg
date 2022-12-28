@@ -175,6 +175,13 @@
   font-family: var(--font-secondary);
 }
 
+.historia h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-fourth);
+}
+
 .timeline_area {
   position: relative;
   z-index: 1;
@@ -228,7 +235,7 @@
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background-color: #f1c40f;
+  background-color: var(--color-fourth);
   content: "";
   top: 50%;
   right: 26px;
@@ -238,7 +245,7 @@
 
 .single-timeline-area .timeline-date p {
   margin-bottom: 0;
-  color: #020710;
+  color: var(--color-thirdary);
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 500;
@@ -251,7 +258,7 @@
   border-radius: 6px;
   margin-bottom: 15px;
   margin-top: 15px;
-  box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+  box-shadow: 0 0.25rem 1rem 0 rgba(0, 43, 116, 0.125);
   border: 1px solid #ebebeb;
 }
 
@@ -264,7 +271,7 @@
   transition-duration: 500ms;
   width: 30px;
   height: 30px;
-  background-color: #f1c40f;
+  background-color: var(--color-fourth);
   flex: 0 0 30px;
   text-align: center;
   max-width: 30px;
@@ -288,10 +295,14 @@
 
 .single-timeline-area .single-timeline-content:hover .timeline-icon,
 .single-timeline-area .single-timeline-content:focus .timeline-icon {
-  background-color: #020710;
+  background-color: var(--color-thirdary);
 }
 
 .single-timeline-area .single-timeline-content:hover .timeline-text h6,
 .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
-  color: #3f43fd;
+  color: var(--color-thirdary);
+}
+
+.single-timeline-area .single-timeline-content .timeline-icon {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
