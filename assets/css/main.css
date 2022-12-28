@@ -1808,17 +1808,23 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact h2{
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: var(--color-fourth);
+}
 .contact .info-container {
   background-color: var(--color-primary);
   height: 100%;
   padding: 20px;
   border-radius: 10px 0 0 10px;
-  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.192);
 }
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: var(--color-fourth);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1830,7 +1836,7 @@ section {
 }
 
 .contact .info-item i {
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
   float: left;
   width: 44px;
@@ -1858,14 +1864,14 @@ section {
 }
 
 .contact .info-item:hover i {
-  background: #fff;
+  background: rgba(0, 43, 116, 0.8);
   color: var(--color-primary);
 }
 
 .contact .php-email-form {
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 0 10px 10px 0;
@@ -1891,7 +1897,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: var(--color-fourth);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1899,7 +1905,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: rgb(243, 5, 5);
   text-align: center;
   padding: 15px;
 }
@@ -1911,7 +1917,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid var(--color-fourth);
   border-top-color: #fff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1941,7 +1947,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: var(--color-primary);
+  background: var(--color-fourth);
   border: 0;
   padding: 14px 45px;
   color: #fff;
@@ -1950,7 +1956,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: rgba(1, 69, 186, 0.8);
 }
 
 @-webkit-keyframes animate-loading {
